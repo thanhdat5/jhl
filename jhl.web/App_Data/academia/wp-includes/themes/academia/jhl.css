@@ -1,0 +1,104 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.sk-spinner-pulse, .sk-rotating-plane, .sk-double-bounce .sk-child, .sk-wave .sk-rect, .sk-chasing-dots .sk-child, .sk-three-bounce .sk-child, .sk-circle .sk-child:before, .sk-fading-circle .sk-circle:before, .sk-folding-cube .sk-cube:before {
+    background-color: #9261aa;
+}
+
+body {
+    font-family: Roboto;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+h1 {
+    font-family: Oswald;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: Oswald;
+    line-height: 39px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 29px;
+}
+
+h3 {
+    font-family: Oswald;
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+h4 {
+    font-family: Oswald;
+    line-height: 23px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+h5 {
+    font-family: Oswald;
+    line-height: 17px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+h6 {
+    font-family: Oswald;
+    line-height: 15px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+}
+
+
+.vc_custom_1453450728036 {
+    background-image: url(http://themes.g5plus.net/academia/wp-content/uploads/2016/01/bg-call-action-1.jpg?id=327) !important;
+    background-position: 0 0 !important;
+    background-repeat: repeat !important;
+}
+
+.vc_custom_1453947936824 {
+    background-image: url(http://themes.g5plus.net/academia/wp-content/uploads/2016/01/about_2.jpg?id=526) !important;
+}
+
+.vc_custom_1453460488027 {
+    background-image: url(http://themes.g5plus.net/academia/wp-content/uploads/2016/01/bg-icon-box-1.jpg?id=340) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.vc_custom_1453518081559 {
+    background-color: #5e3373 !important;
+}
+
+.vc_custom_1453518099311 {
+    background-color: #562c69 !important;
+}
+
+.vc_custom_1453518112274 {
+    background-color: #4e265f !important;
+}
+
+.x-nav-menu {
+    font-size: 13px !important;
+}
+
+    .x-nav-menu > .x-menu-item + .x-menu-item {
+        margin-left: 20px !important;
+    }

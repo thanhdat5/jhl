@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="411e440a147d4c9f88a1acf9d171ec6b" Name="Diagram1">
+        <EntityTypeShape EntityType="jhl_dbModel.Advertisement" Width="1.5" PointX="5.25" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Category" Width="1.5" PointX="8.25" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Config" Width="1.5" PointX="5.25" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Image" Width="1.5" PointX="0.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Log" Width="1.5" PointX="5.25" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Page" Width="1.5" PointX="8.25" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Post" Width="1.5" PointX="10.5" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.PostTag" Width="1.5" PointX="12.75" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Slider" Width="1.5" PointX="5.25" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Statistic" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.Tag" Width="1.5" PointX="5.25" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="jhl_dbModel.User" Width="1.5" PointX="3" PointY="35.375" IsExpanded="true" />
+        <AssociationConnector Association="jhl_dbModel.fk_advertisement_image" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_advertisement_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_advertisement_user2" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_category_category1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_category_image" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_category_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_category_user2" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_post_category" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_config_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_config_user2" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_page_image" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_post_image" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_slider_image" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_user_image" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_log_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_page_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_page_user2" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_post_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_post_user2" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_posttag_product" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_posttag_tag" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_posttag_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_posttag_user2" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_slider_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_slider_user2" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_tag_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_tag_user2" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_user_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="jhl_dbModel.fk_user_user2" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="jhl_dbModel.Comment" Width="1.5" PointX="15.75" PointY="34.25" />
+        <AssociationConnector Association="jhl_dbModel.fk_comment_post" />
+        <AssociationConnector Association="jhl_dbModel.fk_comment_user1" />
+        <AssociationConnector Association="jhl_dbModel.fk_comment_user2" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
